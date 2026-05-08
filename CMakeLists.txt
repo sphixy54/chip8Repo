@@ -4,6 +4,7 @@ project(testProjects)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(testProjects main.cpp
+        chip8.h
 )
 
 # --- ADD THIS PART ---
